@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donation Form</title>
+</head>
+<body>
+    <h2>Donation Form</h2>
+    <form action="#" method="post">
+        <!-- Username Input -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Donation Amount -->
+        <label for="donation">Donation Amount:</label>
+        <input type="number" id="donation" name="donation" required><br><br>
+
+        <!-- Payment Options -->
+        <label>Payment Options:</label><br>
+        <input type="radio" id="credit" name="payment" value="credit">
+        <label for="credit">Credit Card</label><br>
+        <input type="radio" id="paytm" name="payment" value="paytm">
+        <label for="paytm">Paytm</label><br>
+        <input type="radio" id="bitcoin" name="payment" value="bitcoin">
+        <label for="bitcoin">Bitcoin</label><br><br>
+
+        <!-- Submit Button no action-->
+        <button type="button">Submit</button>
+    </form>
+</body>
+</html>
