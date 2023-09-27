@@ -1,2 +1,2 @@
-import simple from mod2
+import {simple} from mod2.mjs
 simple()
