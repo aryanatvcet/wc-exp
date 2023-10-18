@@ -1,0 +1,75 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with the organization name */
+h1 {
+    color: #1e76c2;
+    text-align: center;
+}
+
+/* Style the subheadings */
+h2, h3 {
+    color: #1e76c2;
+}
+
+/* Style the introduction paragraph */
+p {
+    margin: 15px;
+}
+
+/* Style the horizontal line */
+hr {
+    border-color: #1e76c2;
+    margin: 20px 0;
+}
+
+/* Style the iframe */
+iframe {
+    width: 100%;
+}
+
+/* Style images */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the audio player */
+audio {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #1e76c2;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the "Donate Now" link */
+a {
+    color: #1e76c2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
